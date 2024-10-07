@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamaños de Div</title>
+</head>
+<style>
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+
+    .container{
+        height: 10vh;
+        width: 10vw;
+        border: 1px solid black;
+        text-shadow: none;
+     
+    }
+</style>
+<body>
+
+    <div class="container"></div>
+    <div>
+        <label for="width">Width</label>
+        <input type="range" id="width" min="0px" max="100px">
+        <label for="height">Height</label>
+        <input type="range" id="height" min="0px" max="100px">
+        <label for="shadow">Shadow</label>
+        <input type="range" id="shadow" min="0px" max="100px">
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

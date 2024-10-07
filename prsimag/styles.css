@@ -1,0 +1,16 @@
+body{
+    width: 100vm;
+    height: 100vm;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.images, .choices, .result{
+    width: 100%;
+    text-align: center;
+}
+picture img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
