@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 80%;
+    text-align: center;
+}
+.alert{
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+}
+.danger{
+    border: 1px solid red;
+    background-color: rgba(243, 201, 136);
+}
+.warning{
+    border: 1px solid orange;
+    background-color: rgb(221, 216, 207);
+}
+.success{
+    border: 1px solid green;
+    background-color: rgba(168, 239, 168);
+}
